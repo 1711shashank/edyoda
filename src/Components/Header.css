@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0.1rem 7rem;
+    background-color: #FFFFFF;
+}
+.header-company-name{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.header-user{
+    display: flex;
+    align-items: center;
+}
+
+.header-user-name{
+    font-size: 1.6rem;
+}
+
+.header-user-img{
+    width: 4rem;
+    height: auto;
+    margin-left: 1rem;
+}

@@ -1,0 +1,71 @@
+.home-Header {
+    display: flex;
+    align-items: center;
+    background-color: #15294B;
+    padding: 2.5rem 7rem;
+}
+
+
+.course-id {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-right: 1rem;
+}
+
+.course-name {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.home-Body {
+    display: flex;
+}
+
+.home-navbar {
+    height: 100vh;
+    width: 10rem;
+    background-color: #15294B;
+}
+
+.home-course-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6rem;
+    width: 100%;
+    background-color: #F2F6FF;
+}
+
+.comp-title {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.upcoming-certifications-crad {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #a3c6ff;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+}
+
+.upcoming-certifications-crad img {
+    width: 7rem;
+}
+
+.upcoming-certifications-crad button {
+    border: none;
+    padding: 1rem 1.5rem;
+    border: 1px solid #72A7FF;
+    height: 3rem;
+    text-align: center;
+    border-radius: 5rem;
+    font-weight: 500;
+    background-color: inherit;
+    color: #72A7FF;
+}
