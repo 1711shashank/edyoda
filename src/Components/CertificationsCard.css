@@ -1,0 +1,121 @@
+.course-upcoming-certifications{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5rem;
+
+}
+
+.upcoming-certifications-crad {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 ;
+    background-color: white;
+    border: 1px solid #a3c6ff;
+    margin: 4rem 7rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+
+
+/* Image */
+.upcoming-certifications-crad img {
+    margin: 0 3rem 0 4rem;
+    width :7%;
+}
+
+
+
+
+
+
+/* Course details */
+.course-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.course-details-head{
+    background-color: #F5F5F5;
+    padding: 0.5rem 2.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+
+}
+
+.course-details-name{
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 0.8rem 0;
+    letter-spacing: 0.1rem;
+
+}
+
+.course-details-status{
+    background-color: #CCEEFF;
+    padding: 0.3rem 1rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #757985;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Exam structure */
+.exam-structure{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10rem;
+}
+
+.exam-title{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.exam-rounds{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+
+}
+.exam-round-title{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.exam-round{
+    font-weight: 500;
+    background-color: #DEE6F2;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+
+
+/* Button */
+.upcoming-certifications-crad button {
+    border: none;
+    padding: 1rem 1.5rem;
+    border: 1px solid #72A7FF;
+    text-align: center;
+    border-radius: 5rem;
+    font-weight: 500;
+    background-color: inherit;
+    color: #72A7FF;
+    margin: 0 6rem;
+    
+}

@@ -15,7 +15,6 @@ const Home = () => {
                     </div>
                     <div className='home-course-body'>
                         <CertificationsCard/>
-                        <CertificationsCard/>
                     </div>
 
                 </div>
