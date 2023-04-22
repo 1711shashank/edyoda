@@ -3,6 +3,7 @@
     padding: 0 !important;
     display: flex;
     align-items: flex-start;
+    min-width: 78rem;
 }
 .learning-card-left {
     display: flex;
@@ -52,6 +53,7 @@
     flex-direction: column;
     align-items: flex-end;
     width: 105%;
+    padding-top: 1.5rem;
 
 }
 
@@ -66,7 +68,7 @@
     padding-left: 1rem;
 }
 
-.learning-card-leftStats p {
+.learning-card-leftStats > div >p {
     color: #0096FE;
     text-align: left;
 }
@@ -74,8 +76,8 @@
 .learning-card-leftStatsBar {
     display: block;
     background-color: #ABE0FF;
-    height: 5px;
-    width: 15rem;
+    height: 8px;
+    width: 20rem;
     border-radius: 10px;
     margin-bottom: 2px;
 }
@@ -96,8 +98,6 @@
     align-items: flex-start;
     padding: 3rem 0 5rem 0;
     border-left: 1px solid #ABE0FF;
-
-
 }
 
 .learning-card-right>* {

@@ -5,15 +5,25 @@
     padding: 2.5rem 7rem;
 }
 
+.downward-triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid white;
+    margin: 0 1rem;
+}
+
 
 .course-id {
     color: white;
     font-size: 2rem;
     font-weight: 400;
-    padding-right: 1rem;
 }
 
 .course-name {
+    padding-left: 1rem;
+
     color: white;
     font-size: 2rem;
     font-weight: 600;
@@ -37,14 +47,26 @@
     background-color: #F2F6FF;
 }
 
-.course-upcoming-certifications, .continue-learning{
+.view-module-text{
+    position: relative;
+    top:-6.4rem;
+    right:-12rem;
+    color: #2C7AFE;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 !important;
+
+}
+
+.course-upcoming-certifications,
+.continue-learning {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 5rem;
 }
 
-.continue-learning{
+.continue-learning {
     margin-top: 0rem;
 }
 
@@ -55,7 +77,18 @@
 }
 
 
+.continue-learning-cards {
+    display: flex;
+}
 
 
 
 
+.chatIcon{
+    position: fixed !important;;
+    z-index: 1000000;
+    bottom: 1rem;
+    right: 1rem;
+    width: 5rem;
+    border-radius: 50%;
+}

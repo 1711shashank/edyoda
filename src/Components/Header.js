@@ -8,7 +8,7 @@ const Header = () => {
             <div className='header-company-name'>EDYODA</div>
             <div className='header-user'> 
                 <p className='header-user-name'>Hi Test Learner!</p>
-                <img className='header-user-img' src={require('../Assets/Data-Analysis.png')} alt=''/>
+                <img className='header-user-img' src={require('../Assets/img-Avatar.png')} alt=''/>
             </div>
         </div>
     </>

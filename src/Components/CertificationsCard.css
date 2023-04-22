@@ -4,11 +4,14 @@
     padding: 2rem 0 ;
     background-color: white;
     border: 1px solid #a3c6ff;
-    margin: 4rem 7rem;
+    margin: 4rem 0 4rem 7rem;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
+.upcoming-certifications-crad  {
+    min-width: 88rem;
+}
 /* Image */
 .upcoming-certifications-crad img {
     margin: 0 3rem 0 4rem;

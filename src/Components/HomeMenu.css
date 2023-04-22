@@ -1,0 +1,35 @@
+.homeMenu{
+    z-index: 10000;
+    background-color: #16284B;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+    padding: 2rem 7rem;
+}
+
+.homeMenu-select{
+    font-size: 1.3rem;
+    font-family: 500;
+}
+
+.course-list{
+    display: flex;
+}
+.course-item{
+    font-size: 1.6rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    list-style-type: none;
+    border-radius: 8px;
+
+}
+
+.course-item:hover, .course-item.active {
+    background-color: white;
+    color: black;
+}
+
+  

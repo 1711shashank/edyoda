@@ -1,0 +1,59 @@
+.progress-card {
+    margin-left: 5rem !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    padding: 3rem !important;
+    width: 20vw;
+    min-width: 25rem;
+}
+
+.progress-card-title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.progress-card-innerBox {
+    border: 1px solid #ABE0FF;
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.progress-card-innerBox>h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.progress-card-innerBox>p {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.progress-card-viewDetails {
+    color: #2C7AFE;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+
+.progress-card-innerBox {
+    position: relative;
+}
+
+.progress-card-innerBox::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px 5px 0 0;
+}
