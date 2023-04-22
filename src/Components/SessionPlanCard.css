@@ -1,0 +1,68 @@
+.SessionPlanCard{
+    margin: 5rem 0;
+}
+
+.SessionPlanCard-head{
+    display: flex;
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+
+}
+
+.SessionPlanCard-head-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 0.8rem 0 1.2rem 0;
+}
+.SessionPlanCard-head-item > p {
+  color: gray;
+  font-size: 1.2rem;
+   font-weight: 600;
+
+}
+
+.SessionPlanCard-head-item.active{
+    background-color: white;
+    border: 1px solid #a3c6ff;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;   
+    color: black;
+}
+
+.SessionPlanCard-head-item.active > p{
+    color: black;
+}
+
+
+
+
+.SessionPlanCard-body{
+    background-color: white;
+    border: 1px solid #a3c6ff;
+    border-radius: 0 0 5px 5px ;
+    width: 60vw;
+    padding: 5rem;
+
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.SessionPlanCard-body > *{
+    padding: 1rem;
+}
+
+.SessionPlanCard-body button{
+    border: none;
+    background-color: #EFEFEF;
+    padding: 1rem 2rem;
+    border-radius: 10rem;   
+    margin: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+

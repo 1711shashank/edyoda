@@ -1,0 +1,24 @@
+.modale-body{
+    display: flex;
+}
+
+.moduleInbox{
+    width: 22vw;
+    height: 100vh;
+    padding-top: 1rem;
+    background-color: #E0E6F2;
+
+}
+.moduleInbox-item{ 
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.moduleInbox-item:hover{
+    background-color: #CAD3E1;
+}
+
+.moduleInbox-item p{ 
+   font-size: 1.6rem;
+}

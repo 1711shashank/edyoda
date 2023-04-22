@@ -1,0 +1,36 @@
+.moduleBody {
+    background-color: #F2F6FF;
+    width: 100vw;
+    height: 100vh;
+    padding: 6rem 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.moduleBody-course-title {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.moduleBody-course-time {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 400;
+}
+
+.moduleBody-course-feedback {
+    color: #2C7AFE;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.SessionPlanCard-body li{
+    font-size: 1.6rem;
+    color: gray;
+    font-weight: 400;
+    padding-bottom: 8px;
+}

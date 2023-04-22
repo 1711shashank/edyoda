@@ -3,6 +3,7 @@ import CertificationsCard from '../Components/CertificationsCard'
 import HomeMenu from '../Components/HomeMenu'
 import LearningCard from '../Components/LearningCard'
 import ProgressCard from '../Components/ProgressCard'
+import SideNavebar from '../Components/SideNavebar'
 import './Home.css'
 
 const Home = () => {
@@ -23,11 +24,13 @@ const Home = () => {
                     <span className='downward-triangle' onClick={openMenu} ></span>
                     <p className='course-name'> Data Scientist Program</p>
                 </div>
+
                 {shoeMenu ? <HomeMenu showMenu={openMenu} courseID={courseID} setCourseId={setCourseId} /> : <></>}
 
                 <div className='home-Body'>
-                    <div className='home-navbar'>
-                    </div>
+
+                    <SideNavebar/>
+                    
                     <div className='home-course-body'>
                         <div className='course-upcoming-certifications'>
                             <h2 className='card-title'>Upcoming Certifications</h2>

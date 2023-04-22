@@ -1,11 +1,20 @@
 import React from 'react'
 import './Instructor.css'
+import CourseHeader from '../Components/CourseHeader';
+import SideNavebar from '../Components/SideNavebar';
+
 
 const Instructor = () => {
   return (
-    <div>
+    <>
+      <CourseHeader />
+      <div>
+        <SideNavebar/>
+      </div>
+
       
-    </div>
+
+    </>
   )
 }
 
