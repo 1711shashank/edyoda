@@ -37,9 +37,25 @@
     background-color: #F2F6FF;
 }
 
-.comp-title {
+.course-upcoming-certifications, .continue-learning{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+
+.continue-learning{
+    margin-top: 0rem;
+}
+
+.card-title {
     font-size: 3rem;
     font-weight: 400;
     margin-left: 7rem;
-    
 }
+
+
+
+
+
+

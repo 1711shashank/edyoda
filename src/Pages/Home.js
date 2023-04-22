@@ -1,5 +1,7 @@
 import React from 'react'
 import CertificationsCard from '../Components/CertificationsCard'
+import LearningCard from '../Components/LearningCard'
+import ProgressCard from '../Components/ProgressCard'
 import './Home.css'
 
 const Home = () => {
@@ -13,8 +15,19 @@ const Home = () => {
                 <div className='home-Body'>
                     <div className='home-navbar'>
                     </div>
+
                     <div className='home-course-body'>
-                        <CertificationsCard/>
+                        <div className='course-upcoming-certifications'>
+                            <h2 className='card-title'>Upcoming Certifications</h2>
+                            <CertificationsCard />
+                        </div>
+                        <div className='continue-learning'>
+                            <h2 className='card-title'>Continue Learning</h2>
+                            <div className='continue-learning-cards'></div>
+                                <LearningCard />
+                                <ProgressCard />
+                        </div>
+                        
                     </div>
 
                 </div>

@@ -1,12 +1,4 @@
-.course-upcoming-certifications{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5rem;
-
-}
-
-.upcoming-certifications-crad {
+.card{
     display: flex;
     align-items: center;
     padding: 2rem 0 ;
@@ -16,8 +8,6 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
-
-
 
 /* Image */
 .upcoming-certifications-crad img {
@@ -47,7 +37,7 @@
 
 .course-details-name{
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     padding: 0.8rem 0;
     letter-spacing: 0.1rem;
 
