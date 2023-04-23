@@ -27,7 +27,6 @@ const Module = () => {
                         <img src={InstructorIcon} alt='' onClick={() => navigate('/Instructor')} />
                     </div>
 
-
                     <ModuleInbox setModuleInbox={setModuleInbox} />
 
                     {moduleInbox === 'Lecture' ? <ModuleTopic /> : <></>}

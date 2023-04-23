@@ -26,7 +26,7 @@ const AssignmentCard = () => {
 
                         <div className='quiz-card-right-row'>
                             <img src={CalendarIcon} alt='' />
-                            <p>16 Dec 2021</p>
+                            <p>16 December 2021</p>
                         </div>
 
                         <div className='quiz-card-right-row'>
@@ -40,7 +40,7 @@ const AssignmentCard = () => {
                         <p className='quiz-card-right-title'>End:</p>
                         <div className='quiz-card-right-row'>
                             <img src={CalendarIcon} alt='' />
-                            <p>19 Dec 2021</p>
+                            <p>19 December 2021</p>
                         </div>
                         <div className='quiz-card-right-row'>
                             <img src={ClockIcon} alt='' />

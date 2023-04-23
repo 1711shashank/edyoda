@@ -13,11 +13,13 @@ const Instructor = () => {
     return (
         <>
             <CourseHeader />
+
             <div className='home-navbar'>
                 <img src={HomeIcon} alt='' onClick={() => navigate('/')} />
                 <img src={ModuleIcon} alt='' onClick={() => navigate('/Module')} />
                 <img src={InstructorIcon} alt='' onClick={() => navigate('/Instructor')} />
             </div>
+            
         </>
     )
 }

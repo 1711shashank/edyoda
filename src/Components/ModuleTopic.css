@@ -1,25 +1,52 @@
 /* Lecture */
-.moduleBody, .moduleAssignment {
+.moduleBody,
+.moduleAssignment {
     background-color: #F2F6FF;
     width: 100%;
     height: auto;
-    padding: 6rem 9rem;
+    padding: 5rem 9rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.moduleAssignment>*{
+
+.moduleAssignment-top {
+    width: 65vw;
+    justify-content: space-between;
+}
+
+.moduleAssignment-right {
+    width: 25% !important;
+    justify-content: space-between !important;
+}
+
+.moduleAssignment-right div {
+    padding: 0;
+    padding-left: 4rem;
+}
+
+.moduleAssignment>* {
     display: flex;
     flex-direction: row;
 }
 
+.moduleAssignment-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-.moduleBody-course-title, .moduleBody-quiz-title, .moduleBody-assignment-title {
+
+.moduleBody-course-title,
+.moduleBody-quiz-title,
+.moduleBody-assignment-title {
     font-size: 2.2rem;
     font-weight: 500;
 }
 
-.moduleBody-course-time, .moduleBody-quiz-time, .moduleBody-assignment-time {
+.moduleBody-course-time,
+.moduleBody-quiz-time,
+.moduleBody-assignment-time {
     padding-top: 1rem;
     font-size: 1.4rem;
     color: gray;
@@ -32,13 +59,14 @@
     font-weight: 700;
 }
 
-.moduleBody-quizCard-title, .moduleBody-assignmentCard-title{
+.moduleBody-quizCard-title,
+.moduleBody-assignmentCard-title {
     font-size: 1.6rem;
     font-weight: 500;
     padding-top: 2rem;
 }
 
-.SessionPlanCard-body li{
+.SessionPlanCard-body li {
     font-size: 1.6rem;
     color: gray;
     font-weight: 400;
@@ -52,37 +80,40 @@
 
 
 /* Quiz */
-.quiz-card{
+.quiz-card {
     display: flex;
     padding: 0 !important;
     margin: 2rem 0 !important;
     width: 100%;
 }
 
-.quiz-card-left{
+.quiz-card-left {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-left: 2rem;
     width: 45%;
 }
-.quiz-card-left > *{
-   padding: 1.5rem 4rem;
+
+.quiz-card-left>* {
+    padding: 1.5rem 4rem;
 }
-.quiz-card-left h3{
-   font-size: 2rem;
-   font-weight: 400;
-   color: rgb(73, 73, 73);
-   padding-bottom: 1rem;
+
+.quiz-card-left h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(73, 73, 73);
+    padding-bottom: 1rem;
 }
-.quiz-card-left p{
-   font-size: 1.6rem;
-   font-weight: 400;
-   color: gray;
+
+.quiz-card-left p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: gray;
 }
 
 
-.quiz-card-right{
+.quiz-card-right {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -91,31 +122,33 @@
 
 }
 
-.quiz-card-right-Container{
+.quiz-card-right-Container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 5rem;
 }
-.quiz-card-right-title{
+
+.quiz-card-right-title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.quiz-card-right-row{
+.quiz-card-right-row {
     display: flex;
     align-items: center;
     padding: 1rem 0;
 }
 
-.quiz-card-right-row img{
+.quiz-card-right-row img {
     width: 2rem;
     margin-right: 1rem;
 }
-.quiz-card-right-row p{
-   font-size: 1.4rem;
-   font-weight: 400;
-   color: gray;
+
+.quiz-card-right-row p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: gray;
 }
 
 
