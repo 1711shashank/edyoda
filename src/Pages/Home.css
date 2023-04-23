@@ -41,7 +41,8 @@
     min-width: 10rem;
     max-width: 10rem;
     align-items: center;
-    height: min(auto,100vh);
+    min-height: 100vh;
+    height: auto;
 }
 
 .home-navbar img {
