@@ -158,3 +158,34 @@
     padding-top: 0.8rem;
     color: gray;
 }
+
+
+@media (max-width: 600px) {
+    .learning-card {
+        align-items: center;
+    }
+
+    .learning-card-leftDetails {
+        flex-direction: column;
+    }
+
+    .learning-card-leftDetails>img {
+        width: 25%;
+        margin-bottom: 2rem;
+    }
+
+    .learning-card-right {
+        border-left: none;
+        border-top: 1px solid #ABE0FF;
+    }
+
+    .view-module-text {
+        display: none;
+    }
+
+    .learning-card-leftStatsBar {
+        width: 12rem;
+    }
+
+
+}

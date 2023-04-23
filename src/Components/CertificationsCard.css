@@ -115,3 +115,55 @@
     margin: 0 6rem;
 
 }
+
+
+
+
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    .card>* {
+        padding-bottom: 2rem;
+    }
+
+    .upcoming-certifications-crad,
+    .learning-card,
+    .progress-card {
+        width: 70vw !important;
+        min-width: 35vw !important;
+    }
+
+    .upcoming-certifications-crad img {
+        width: 25%;
+    }
+
+    .course-details {
+        align-items: center;
+    }
+
+    .exam-title {
+        font-size: 1.6rem;
+    }
+
+    .exam-structure {
+        margin: 0;
+    }
+
+    .exam-rounds {
+        flex-direction: column;
+    }
+
+    .exam-rounds>* {
+        margin: 0.8rem;
+        font-size: 1.3rem;
+    }
+
+    .upcoming-certifications-crad button {
+        margin: 0;
+    }
+}

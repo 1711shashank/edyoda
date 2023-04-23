@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,26 +6,39 @@
     padding: 0.1rem 7rem;
     background-color: #FFFFFF;
 }
-.header-company-name{
+
+.header-company-name {
     display: inline-block;
     font-weight: 900;
     font-size: 3rem;
     background-image: linear-gradient(to right, #0094FF, #0A49EF);
     color: transparent;
-    -webkit-background-clip:text;
+    background-clip: text;
 }
 
-.header-user{
+.header-user {
     display: flex;
     align-items: center;
 }
 
-.header-user-name{
+.header-user-name {
     font-size: 1.6rem;
 }
 
-.header-user-img{
+.header-user-img {
     width: 4rem;
     height: auto;
     margin-left: 1rem;
+}
+
+
+@media (max-width: 600px) {
+    .header {
+        height: 5rem;
+        padding: 0.1rem 3rem;
+    }
+
+    .header-company-name {
+        font-size: 2.5rem;
+    }
 }

@@ -92,15 +92,65 @@
     display: flex;
 }
 
-
-
-
 .chatIcon {
     position: fixed !important;
-    ;
     z-index: 1000000;
     bottom: 1rem;
     right: 1rem;
     width: 5rem;
     border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+
+    .home-course-body {
+        width: calc(100vw - 6rem);
+        align-items: center;
+    }
+
+    .card-title {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .course-upcoming-certifications,
+    .continue-learning-cards,
+    .continue-learning {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-Header {
+        padding: 1rem;
+    }
+
+    .course-id {
+        font-size: 1.6rem;
+    }
+
+    .downward-triangle {
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 8px solid white;
+        margin: 0 1rem;
+    }
+
+    .course-name {
+        font-size: 1.6rem;
+    }
+
+    .home-navbar {
+        width: 6rem;
+        min-width: 6rem;
+        max-width: 6rem;
+        align-items: center;
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .home-navbar img {
+        width: 6rem;
+    }
 }

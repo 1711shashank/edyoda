@@ -57,3 +57,9 @@
     background-color: #ddd;
     border-radius: 5px 5px 0 0;
 }
+
+@media (max-width: 600px) {
+    .progress-card {
+        margin: 1rem 0 !important;
+    }
+}
