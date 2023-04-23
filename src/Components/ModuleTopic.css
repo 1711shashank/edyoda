@@ -54,9 +54,12 @@
 }
 
 .moduleBody-course-feedback {
+    position: absolute;
     color: #2C7AFE;
     font-size: 1.5rem;
     font-weight: 700;
+    right: 10rem;
+    top: 25rem;
 }
 
 .moduleBody-quizCard-title,

@@ -1,5 +1,5 @@
 .SessionPlanCard {
-    margin: 5rem 0;
+    margin: 8rem 0;
 }
 
 .SessionPlanCard-head {
@@ -47,7 +47,7 @@
     background-color: white;
     border: 1px solid #a3c6ff;
     border-radius: 0 0 5px 5px;
-    width: 60vw;
+    width: 65vw;
     padding: 5rem;
 
 
