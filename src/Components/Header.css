@@ -7,8 +7,12 @@
     background-color: #FFFFFF;
 }
 .header-company-name{
+    display: inline-block;
     font-weight: 900;
     font-size: 3rem;
+    background-image: linear-gradient(to right, #0094FF, #0A49EF);
+    color: transparent;
+    -webkit-background-clip:text;
 }
 
 .header-user{
