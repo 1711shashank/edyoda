@@ -51,7 +51,6 @@ const LearningCard = () => {
                 </div>
 
                 <div className='learning-card-right'>
-                    <p className='view-module-text'>VIEW MODULE DETAILS</p>
 
 
                     <div className='learning-card-right-dateTime'>
@@ -69,6 +68,8 @@ const LearningCard = () => {
                         <button> JOIN LIVE SESSION</button>
                         <p>BEGINS AT 07:30 PM</p>
                     </div>
+                    <p className='view-module-text'>VIEW MODULE DETAILS</p>
+
 
                 </div>
 

@@ -41,7 +41,7 @@
     min-width: 10rem;
     max-width: 10rem;
     align-items: center;
-    height: 100vh
+    height: min(auto,100vh);
 }
 
 .home-navbar img {
@@ -59,7 +59,7 @@
 
 .view-module-text {
     position: relative;
-    top: -6.4rem;
+    top: -29rem;
     right: -12rem;
     color: #2C7AFE;
     font-size: 1.5rem;
