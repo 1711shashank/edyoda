@@ -7,7 +7,6 @@ const CourseHeader = () => {
                 <p className='course-id'> DS031221 </p>
                 <p className='course-name'> Data Scientist Program</p>
             </div>
-
         </>
     )
 }

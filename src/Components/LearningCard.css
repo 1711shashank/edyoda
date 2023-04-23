@@ -1,10 +1,11 @@
 /* Left */
-.learning-card{
+.learning-card {
     padding: 0 !important;
     display: flex;
     align-items: flex-start;
     min-width: 78rem;
 }
+
 .learning-card-left {
     display: flex;
     flex-direction: column;
@@ -68,7 +69,7 @@
     padding-left: 1rem;
 }
 
-.learning-card-leftStats > div >p {
+.learning-card-leftStats>div>p {
     color: #0096FE;
     text-align: left;
 }
@@ -119,40 +120,41 @@
     font-size: 2rem;
     color: #2C7AFE;
 }
-.learning-card-right-feedBack{
+
+.learning-card-right-feedBack {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: auto;
 }
 
-.learning-card-right-feedBack h3{
+.learning-card-right-feedBack h3 {
     color: #C9C6CC;
     font-size: 1.6rem;
 }
 
-.learning-card-right-feedBack p{
+.learning-card-right-feedBack p {
     margin-left: 5rem;
-    color:  #73ccff;
+    color: #73ccff;
     font-weight: 600;
     font-style: italic;
 }
 
-.learning-card-right-classTime{
+.learning-card-right-classTime {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.learning-card-right-classTime button{
+
+.learning-card-right-classTime button {
     border: none;
     background-color: #EFEFEF;
     padding: 1rem 2rem;
-    border-radius: 10rem;   
+    border-radius: 10rem;
 }
-.learning-card-right-classTime p{
+
+.learning-card-right-classTime p {
     font-weight: 400;
-    padding-top: 0.8rem; 
+    padding-top: 0.8rem;
     color: gray;
 }
-
-

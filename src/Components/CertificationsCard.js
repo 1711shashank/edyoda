@@ -4,9 +4,8 @@ import './CertificationsCard.css'
 const CertificationsCard = () => {
     return (
         <>
-
             <div className='upcoming-certifications-crad card'>
-                
+
                 <img src={require('../Assets/Data-Analysis.png')} alt='' />
 
                 <div className='course-details'>
@@ -32,8 +31,6 @@ const CertificationsCard = () => {
                 <button> VIEW EXAM DETAILS </button>
 
             </div>
-
-
         </>
     )
 }

@@ -2,17 +2,17 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
-  return (
-    <>
-        <div className='header'>
-            <div className='header-company-name'>EDYODA</div>
-            <div className='header-user'> 
-                <p className='header-user-name'>Hi Test Learner!</p>
-                <img className='header-user-img' src={require('../Assets/img-Avatar.png')} alt=''/>
+    return (
+        <>
+            <div className='header'>
+                <div className='header-company-name'>EDYODA</div>
+                <div className='header-user'>
+                    <p className='header-user-name'>Hi Test Learner!</p>
+                    <img className='header-user-img' src={require('../Assets/img-Avatar.png')} alt='' />
+                </div>
             </div>
-        </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default Header

@@ -1,21 +1,25 @@
 import React from 'react'
-import './Instructor.css'
 import CourseHeader from '../Components/CourseHeader';
-import SideNavebar from '../Components/SideNavebar';
+import HomeIcon from '../Assets/home.png'
+import ModuleIcon from '../Assets/modules.png'
+import InstructorIcon from '../Assets/Instructor.png'
+import { useNavigate } from 'react-router-dom';
 
 
 const Instructor = () => {
-  return (
-    <>
-      <CourseHeader />
-      <div>
-        <SideNavebar/>
-      </div>
 
-      
+    const navigate = useNavigate();
 
-    </>
-  )
+    return (
+        <>
+            <CourseHeader />
+            <div className='home-navbar'>
+                <img src={HomeIcon} alt='' onClick={() => navigate('/')} />
+                <img src={ModuleIcon} alt='' onClick={() => navigate('/Module')} />
+                <img src={InstructorIcon} alt='' onClick={() => navigate('/Instructor')} />
+            </div>
+        </>
+    )
 }
 
 export default Instructor

@@ -34,9 +34,19 @@
 }
 
 .home-navbar {
-    height: 100vh;
-    width: 14rem;
+    display: flex;
+    flex-direction: column;
     background-color: #15294B;
+    width: 10rem;
+    min-width: 10rem;
+    max-width: 10rem;
+    align-items: center;
+    height: 100vh
+}
+
+.home-navbar img {
+    width: 10rem;
+    color: white !important;
 }
 
 .home-course-body {
@@ -47,10 +57,10 @@
     background-color: #F2F6FF;
 }
 
-.view-module-text{
+.view-module-text {
     position: relative;
-    top:-6.4rem;
-    right:-12rem;
+    top: -6.4rem;
+    right: -12rem;
     color: #2C7AFE;
     font-size: 1.5rem;
     font-weight: 700;
@@ -84,8 +94,9 @@
 
 
 
-.chatIcon{
-    position: fixed !important;;
+.chatIcon {
+    position: fixed !important;
+    ;
     z-index: 1000000;
     bottom: 1rem;
     right: 1rem;

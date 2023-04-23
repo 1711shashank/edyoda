@@ -1,29 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react'
 import CourseHeader from '../Components/CourseHeader'
-import ModuleBody from '../Components/ModuleBody'
+import ModuleTopic from '../Components/ModuleTopic'
+import ModuleQuiz from '../Components/ModuleQuiz'
+import ModuleAssignment from '../Components/ModuleAssignment'
 import ModuleInbox from '../Components/ModuleInbox'
-import SideNavebar from '../Components/SideNavebar'
+import HomeIcon from '../Assets/home.png'
+import ModuleIcon from '../Assets/modulesActive.png'
+import InstructorIcon from '../Assets/Instructor.png'
 import './Module.css'
+import { useNavigate } from 'react-router-dom'
 
 const Module = () => {
-  return (
-    <>
-      <div className='modale'>
-        <CourseHeader />
-        <div className='modale-body'>
-          <SideNavebar />
-          <ModuleInbox />
-          <ModuleBody />
-          
-        </div>
+
+    const navigate = useNavigate();
+    const [moduleInbox, setModuleInbox] = useState('Lecture');
+
+    return (
+        <>
+            <div className='modale'>
+                <CourseHeader />
+                <div className='modale-body'>
+
+                    <div className='home-navbar'>
+                        <img src={HomeIcon} alt='' onClick={() => navigate('/')} />
+                        <img src={ModuleIcon} alt='' onClick={() => navigate('/Module')} />
+                        <img src={InstructorIcon} alt='' onClick={() => navigate('/Instructor')} />
+                    </div>
 
 
-      </div>
+                    <ModuleInbox setModuleInbox={setModuleInbox} />
 
+                    {moduleInbox === 'Lecture' ? <ModuleTopic /> : <></>}
+                    {moduleInbox === 'Quiz' ? <ModuleQuiz /> : <></>}
+                    {moduleInbox === 'Assignment' ? <ModuleAssignment /> : <></>}
 
+                </div>
+            </div>
 
-    </>
-  )
+            <img className='chatIcon' src={require('../Assets/chatIcon.jpg')} alt='' />
+        </>
+    )
 }
 
 export default Module
